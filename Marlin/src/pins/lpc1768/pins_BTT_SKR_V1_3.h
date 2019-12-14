@@ -98,9 +98,6 @@
   #define Z_CS_PIN         P1_10
 #endif
 
-/*
-  Original PIN assignment. E0 is faulty and will not move the stepper motor.
-
 #define E0_STEP_PIN        P2_13
 #define E0_DIR_PIN         P0_11
 #define E0_ENABLE_PIN      P2_12
@@ -111,26 +108,6 @@
 #ifndef E1_CS_PIN
   #define E1_CS_PIN        P1_01
 #endif
-*/
-
-/**
-  Switched E0 and E1 pin assignment and moved stepper and driver to E1.
-  E1 is working and stepper moves. Proves that E0 on the board is faulty.
-**/
-#define E1_STEP_PIN        P2_13
-#define E1_DIR_PIN         P0_11
-#define E1_ENABLE_PIN      P2_12
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN        P1_08
-#endif
-
-#define E0_STEP_PIN        P0_01
-#define E0_DIR_PIN         P0_00
-#define E0_ENABLE_PIN      P0_10
-#ifndef E0_CS_PIN
-  #define E0_CS_PIN        P1_01
-#endif
-
 
 //
 // Software SPI pins for TMC2130 stepper drivers
