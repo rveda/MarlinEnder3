@@ -1,0 +1,3 @@
+The windows USB driver for the SKR 1.3 board is in ..
+
+Marlin\src\HAL\HAL_LPC1768\win_usb_driver
