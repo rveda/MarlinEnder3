@@ -481,9 +481,9 @@
   //#define DEFAULT_Kd 76.55
 
   // PID tuning values
-  #define DEFAULT_Kp 21.26
-  #define DEFAULT_Ki 1.97
-  #define DEFAULT_Kd 57.46
+  #define DEFAULT_Kp 24.35
+  #define DEFAULT_Ki 1.82
+  #define DEFAULT_Kd 81.33
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
